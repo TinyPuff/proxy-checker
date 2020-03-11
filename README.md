@@ -15,13 +15,7 @@ Note that this proxy requires Python 3.
 - Now, if you don't have the dependencies, you should install them:
 
 ```shell
-pip install <module>
-```
-
-and in this case, you should use the command below:
-
-```shell
-pip install requests
+pip install -r requirements.txt
 ```
 
 - Put your proxies in "IO/default.txt" like this:
