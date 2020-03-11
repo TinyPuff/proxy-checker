@@ -57,6 +57,7 @@ Here we go...
 104.244.75.26:8080
 138.201.223.250:31288
 212.227.11.130:80
-5.79.72.118:8118 ```
+5.79.72.118:8118
+```
 
 [dl]:https://github.com/TinyPuff/proxy-checker/archive/master.zip
