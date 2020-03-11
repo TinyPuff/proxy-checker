@@ -15,7 +15,8 @@ Note that this proxy requires Python 3.
 - Now, if you don't have the dependencies, you should install them:
 
 ```shell
-pip install -r requirements.txt
+$ pip install pipenv
+$ pip install -r requirements.txt
 ```
 
 - Put your proxies in "IO/default.txt" like this:
@@ -26,7 +27,7 @@ IP:PORT
 - This only thing that's left is to run the script:
 
 ```shell
-python filter.py
+$ python filter.py
 ```
 
 ## Here's an example
