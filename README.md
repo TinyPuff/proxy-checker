@@ -42,31 +42,4 @@ Here's an example:
 python filter.py
 ```
 
-The code above fetches the `README-default.md` file from this repository and
-renames it to `README.md`.
-
-## Fill with your own text
-
-The default template has some guiding text to get you started. However you'll
-need to edit the file with your own text to use it with your project.
-
-```shell
-atom README.md
-```
-
-If you're using [Atom](https://atom.io/) code editor, the code above opens the
-file for editing. If necessary, substitute with your preferred markdown editor.
-
-### Add to git and push
-
-After you've filled your `README.md` file with your own project's text, you
-should push it to your GitHub project:
-
-```shell
-git add README.md
-git commit -m "Added: README"
-git push
-```
-
-This adds the `README.md` file to your git repository, creates a commit for it
-and pushes it to GitHub (or other preferred remote repository).
+[dl]:https://github.com/TinyPuff/proxy-checker/archive/master.zip
