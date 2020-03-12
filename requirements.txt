@@ -1,2 +1,2 @@
-requests
-requests[socks]
+requests>=2.23.0
+pysocks>=1.7.1

@@ -7,7 +7,7 @@ Give this script your fresh proxies and it'll give you the ones that work.
 
 This program, uses two modules available on Python version 3 and above:
 - requests
-- requests[socks]
+- pysocks
 
 ## Installation
 
