@@ -18,7 +18,6 @@ If you're a GNU/Linux, BSD or MacOS user, you can just simply right-click in the
 If you use Windows, you should do "Shift+Right-Click" in the proxy-checker folder and click on "Open command window here" and then enter these.
 
 ```shell
-$ pip install pipenv
 $ pip install -r requirements.txt
 ```
 
@@ -105,5 +104,6 @@ As you see, the program put those two proxies in our output file. It seems to be
 ### To-Do
 - I should use threads to get the job done as quickly as possible.
 - Allow the user to enter username and password for SOCKS5 protocols, if needed.
+- Learn to use pipenv instead of virtualenv.
 
 [dl]:https://github.com/TinyPuff/proxy-checker/archive/master.zip
