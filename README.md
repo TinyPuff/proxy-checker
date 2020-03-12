@@ -100,7 +100,7 @@ Let's take a look at my output file, which is the default one.
 37.59.87.204:8080
 ```
 
-As you see, the program, put those two proxies in our output file. It seems to be pretty easy, amirite?
+As you see, the program put those two proxies in our output file. It seems to be pretty easy, amirite?
 
 ### To-Do
 - I should use threads to get the job done as quickly as possible.
