@@ -10,16 +10,21 @@ The text files "result.txt" and "default.txt" are placed inside the IO folder.
 
 ## Installation
 
-Note that this proxy requires Python 3.
+Note that this script requires you to use Python 3.
 - First of all, you need to [download][dl] proxy-checker and extract it.
-- Now, if you don't have the dependencies, you should install them:
+- Now, if you don't have the dependencies, you should install them. 
+If you're GNU/Linux or BSD user, you can just simply right-click in the proxy-checker folder and open a terminal and enter the commands below.
+If you use Windows, you should do "Shift+Right-Click" in the proxy-checker folder and click on "Open command window here" and then enter these.
 
 ```shell
 $ pip install pipenv
 $ pip install -r requirements.txt
 ```
 
-- Put your proxies in "IO/default.txt" like this:
+## How To Use
+
+- Put your proxies in a text file like this:
+
 ```
 IP:PORT
 ```
@@ -30,7 +35,7 @@ IP:PORT
 $ python filter.py
 ```
 
-## Here's an example
+## Here's An Example
 
 At first, I put these into default.txt:
 ```
@@ -60,5 +65,11 @@ Here we go...
 212.227.11.130:80
 5.79.72.118:8118
 ```
+
+### To-Do
+- I should use threads to get the job done as quickly as possible.
+- Let the user now if the chosen input file doesn't exist.
+- Allow the user to enter username and password for SOCKS5 protocols, if needed.
+- Update the "How To Use" section in README.md
 
 [dl]:https://github.com/TinyPuff/proxy-checker/archive/master.zip
