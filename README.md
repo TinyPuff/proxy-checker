@@ -57,6 +57,7 @@ And after that, the program will print the ones that work and put them into your
 
 > Attention: If you use a Unix-like operating system such as GNU/Linux and your input/output files are in your home folder, you can't refer to them like this: "~/input.txt".
 You should enter "/home/your_username/input.txt" instead.
+
 > Attention: Even though I don't recommend it, you can just exit the program by using "CTRL+C".
 
 ## Here's An Example
