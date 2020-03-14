@@ -106,5 +106,6 @@ As you see, the program put those two proxies in our output file. It seems to be
 - I should use threads to get the job done as quickly as possible.
 - Allow the user to enter username and password for SOCKS5 protocols, if needed.
 - Learn to use pipenv instead of virtualenv.
+- Make a Table of Contents.
 
 [dl]:https://github.com/TinyPuff/proxy-checker/archive/master.zip
